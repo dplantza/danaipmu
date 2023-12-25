@@ -15,6 +15,7 @@ import { generateMockBlogData, generateMockProductData } from '../helpers/mock';
 
 import * as styles from './index.module.css';
 import { Link, navigate } from 'gatsby';
+import HeroMob from "../components/HeroMob";
 
 const IndexPage = () => {
   const newArrivals = generateMockProductData(3, 'shirt');
@@ -27,9 +28,18 @@ const IndexPage = () => {
   return (
     <Layout disablePaddingBottom>
       {/* Hero Container */}
-      <Hero
+        <Hero
         maxWidth={'500px'}
         image={'/banner1.png'}
+        title={'Essentials for a cold winter'}
+        subtitle={'Δανάη Δήμητρα Κουρτίδη Since 2016'}
+        ctaText={'6980865065'}
+        ctaAction={goToShop}
+      />
+
+      <HeroMob
+        maxWidth={'500px'}
+        image={'/bannerMob.png'}
         title={'Essentials for a cold winter'}
         subtitle={'Δανάη Δήμητρα Κουρτίδη Since 2016'}
         ctaText={'6980865065'}

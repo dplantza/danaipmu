@@ -14,7 +14,9 @@
     font-size: 52px;
     line-height: 62px;
 }
-
+/* show home page block dependent on screen size */
+@media only screen and (max-width: 780px) { #mobile-hero { display: none; } }
+@media only screen and (min-width: 781px) { #desktop-hero { display: none; } }
 
 .messageContainer {
     text-align: center;

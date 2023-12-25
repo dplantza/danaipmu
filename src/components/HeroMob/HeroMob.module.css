@@ -1,4 +1,4 @@
-.root {
+.rootMob {
     width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -11,7 +11,7 @@
     color: var(--standard-white);
 }
 
-.content {
+.contentMob {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -21,7 +21,7 @@
     gap: 40px;
 }
 
-.title {
+.titleMob {
     font-size: 72px;
     line-height: 86px;
     font-weight: normal;
@@ -29,7 +29,7 @@
     white-space: pre-wrap;
 }
 
-.subtitle {
+.subtitleMob {
     
     font-weight: 400;
     font-size: 16px;
@@ -37,12 +37,18 @@
     text-align: center;
 }
 
-.ctaButton {
+.ctaButtonMob {
+
+
     width: 180px;
-    
+    border: 1px solid var(--standard-black);
+    color: var(--standard-white);
+    background-color: rgba(222, 161, 169, 0.45);
+    text-transform: uppercase;
+    font-weight: 500;
 }
 
-.ctaLink {
+.ctaLinkMob {
     
     text-transform: uppercase;
     color: var(--standard-white);
@@ -51,9 +57,11 @@
     font-weight: 500;
     font-size: 14px;
     line-height: 17px;
+
+
 }
 
-.header {
+.headerMob {
     color: var(--standard-white);
     font-weight: 500;
     font-size: 14px;
@@ -62,24 +70,24 @@
 }
 
 @media (max-width: 800px) {
-    .root {
+    .rootMob {
         min-height: 50vh;
-        display: none;
+
     }
 
-    .title {
+    .titleMob {
         font-size: 42px;
         line-height: 50px;
     }
 
-    .subtitle {
+    .subtitleMob {
         font-size: 14px;
         line-height: 17px;
     }
 }
 
 @media (max-width: 500px) {
-    .content {
+    .contentMob {
         padding: 0px 32px;
     }
 }
