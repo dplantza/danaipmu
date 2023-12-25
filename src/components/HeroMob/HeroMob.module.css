@@ -9,6 +9,7 @@
     align-items: center;
     justify-content: center;
     color: var(--standard-white);
+
 }
 
 .contentMob {
@@ -91,12 +92,12 @@
         padding: 0px 32px;
     }
 }
-@media  (min-width: 781px) {
+@media  (min-width: 1216px) {
     .rootMob {
         display: none;
     }
 }
-@media (max-width: 780px){
+@media (max-width: 1215px){
     .root {
         display: none;
     }
