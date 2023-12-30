@@ -9,7 +9,7 @@ const AttributeGrid = (props) => {
     <div className={styles.root}>
       <Attribute
         icon={'delivery'}
-        title={'free delivery worldwide'}
+        title={'free delivery greece'}
         subtitle={'Click to learn more'}
       />
       <Attribute
