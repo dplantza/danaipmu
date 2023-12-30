@@ -27,12 +27,13 @@ const Header = (prop) => {
   const [search, setSearch] = useState('');
 
   const searchRef = createRef();
-  const bannerMessage = 'Free shipping worldwide';
+  const bannerMessage = '6980865065 Eλευθέριου Βενιζέλου 17 περιστερι';
   const searchSuggestions = [
-    'Oversize sweaters',
-    'Lama Pajamas',
-    'Candles Cinnamon',
+    'Extensions',
+    'Lashes',
+    'Brows',
   ];
+
 
   const handleHover = (navObject) => {
     if (navObject.category) {
@@ -123,38 +124,38 @@ const Header = (prop) => {
               aria-label="Search"
               className={`${styles.iconButton} ${styles.iconContainer}`}
               onClick={() => {
-                setShowSearch(!showSearch);
+               // setShowSearch(!showSearch);
               }}
             >
               <Icon symbol={'search'}></Icon>
             </button>
             <Link
               aria-label="Favorites"
-              href="/account/favorites"
+              //href="/account/favorites"
               className={`${styles.iconContainer} ${styles.hideOnMobile}`}
             >
               <Icon symbol={'heart'}></Icon>
             </Link>
             <Link
               aria-label="Orders"
-              href={isAuth() ? '/login' : '/account/orders/'}
+              //href={isAuth() ? '/login' : '/account/orders/'}
               className={`${styles.iconContainer} ${styles.hideOnMobile}`}
             >
               <Icon symbol={'user'}></Icon>
             </Link>
-            <button
-              aria-label="Cart"
-              className={`${styles.iconButton} ${styles.iconContainer} ${styles.bagIconContainer}`}
-              onClick={() => {
-                setShowMiniCart(true);
-                setMobileMenu(false);
-              }}
-            >
-              <Icon symbol={'bag'}></Icon>
-              <div className={styles.bagNotification}>
-                <span>1</span>
-              </div>
-            </button>
+            {/*<button*/}
+            {/*  aria-label="Cart"*/}
+            {/*  className={`${styles.iconButton} ${styles.iconContainer} ${styles.bagIconContainer}`}*/}
+            {/*  onClick={() => {*/}
+            {/*    setShowMiniCart(true);*/}
+            {/*    setMobileMenu(false);*/}
+            {/*  }}*/}
+            {/*>*/}
+            {/*  <Icon symbol={'bag'}></Icon>*/}
+            {/*  <div className={styles.bagNotification}>*/}
+            {/*    <span>1</span>*/}
+            {/*  </div>*/}
+            {/*</button>*/}
             <div className={styles.notificationContainer}>
               <AddNotification openCart={() => setShowMiniCart(true)} />
             </div>

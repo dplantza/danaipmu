@@ -8,19 +8,18 @@
   ],
   "languageList": [
     { "value": "english", "label": "English" },
-    { "value": "german", "label": "Deutsch" },
-    { "value": "mandarin", "label": "普通话" }
+    { "value": "greek", "label": "Greek" }
   ],
   "social": {
-    "facebook": "https://www.facebook.com/MatterDesign/",
-    "instagram": "https://www.instagram.com/p/CVwMlChIWmW",
-    "twitter": "https://twitter.com/hellomatter",
-    "youtube": "https://www.youtube.com/channel/UCEOu94Haa--QmltsSawflXg"
+    "facebook": "https://www.facebook.com/danaikourtidi/",
+    "instagram": "https://www.instagram.com/danai_pmu_lashes/",
+    "twitter": "https://www.instagram.com/danaikourtidi/",
+    "youtube": "https://www.instagram.com/danaikourtidi/"
   },
   "paymentOptions": {
     "visa": true,
     "mastercard": true,
-    "amex": true
+    "amex": false
   },
   "footerLinks": [
     {
@@ -64,8 +63,8 @@
   ],
   "headerLinks": [
     {
-      "menuLabel": "Shop",
-      "menuLink": "/shop",
+      "menuLabel": "Lashes",
+      "menuLink": "/lashed",
       "category": [
         {
           "categoryLabel": "woman",
@@ -129,13 +128,13 @@
       ]
     },
     {
-      "menuLabel": "journal",
-      "menuLink": "/blog",
+      "menuLabel": "Brows",
+      "menuLink": "/brows",
       "category": null
     },
     {
-      "menuLabel": "About",
-      "menuLink": "/about",
+      "menuLabel": "Skin",
+      "menuLink": "/skin",
       "category": null
     }
   ],

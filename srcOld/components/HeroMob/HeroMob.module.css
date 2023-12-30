@@ -1,0 +1,104 @@
+.rootMob {
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 80vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: var(--standard-white);
+
+}
+
+.contentMob {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: var(--standard-white);
+    max-width: 500px;
+    gap: 40px;
+}
+
+.titleMob {
+    font-size: 72px;
+    line-height: 86px;
+    font-weight: normal;
+    text-align: center;
+    white-space: pre-wrap;
+}
+
+.subtitleMob {
+    
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+}
+
+.ctaButtonMob {
+
+
+    width: 180px;
+    border: 1px solid var(--standard-black);
+    color: var(--standard-white);
+    background-color: rgba(222, 161, 169, 0.45);
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.ctaLinkMob {
+    
+    text-transform: uppercase;
+    color: var(--standard-white);
+    border-bottom: 1px solid var(--standard-white);
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+
+
+}
+
+.headerMob {
+    color: var(--standard-white);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+}
+
+@media (max-width: 800px) {
+    .rootMob {
+        min-height: 50vh;
+
+    }
+
+    .titleMob {
+        font-size: 42px;
+        line-height: 50px;
+    }
+
+    .subtitleMob {
+        font-size: 14px;
+        line-height: 17px;
+    }
+}
+
+@media (max-width: 500px) {
+    .contentMob {
+        padding: 0px 32px;
+    }
+}
+@media  (min-width: 1216px) {
+    .rootMob {
+        display: none;
+    }
+}
+@media (max-width: 1215px){
+    .root {
+        display: none;
+    }
+}
